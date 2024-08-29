@@ -1,0 +1,94 @@
+.body{
+    background-color: black;
+    background-size: cover;
+}
+h1{
+    color:black;
+    text-align: center;
+}
+button{
+    color :blue;
+    width: 300px;
+    font-size : 30px;
+    display: block; margin: 0 auto;
+    border-radius: 8px
+
+}
+.widget{
+    margin: 0 auto; 
+}
+.create{
+    margin: 0 auto; 
+}
+.update{
+    margin: 0 auto; 
+}
+.delete{
+    margin: 0 auto; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+     border-spacing: 2 1px;
+     max-width: 100%;
+     overflow-x: scroll;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #06eec7;
+    color: rgb(20, 17, 226);
+  }
+  
+  /* Add row lines */
+  tr:nth-child(even) {
+    background-color: #10ebcd;
+  }
+  .flex-model {
+    display: flex;
+    flex-direction: row;
+    width: 33.33%;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+    gap: 700px;
+  }
+  .flex-model .widget {
+    height: 50%;
+  }
+  .flex-model .widget h3 {
+    font-size: 20px;
+  }
+  
+  .flex-model .widget .input label {
+    font-size: 16px;
+  }
+  
+  .flex-model .widget .input input {
+    font-size: 16px;
+  }
+  
+  .flex-model .widget .cont button {
+    font-size: 16px;
+  }
+  .flex-model .widget h3 {
+    font-size: 20px;
+  }
+  
+  .flex-model .widget .input label {
+    font-size: 16px;
+  }
+  
+  .flex-model .widget .input input {
+    font-size: 16px;
+  }
+  
+  .flex-model .widget .cont button {
+    font-size: 16px;
+  }
